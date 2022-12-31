@@ -1,0 +1,75 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pixel Automation – Installation</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/</link><description>Recent content in Installation on Pixel Automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://nfactor26.github.io/pixel-automation-docs/docs/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: pixel-deigner</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-designer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-designer/</guid><description>
+&lt;p>pixel-designer is a wpf based application built on top of .net core framework. It provides the design environment for creating automation test cases.
+It can be executed only on windows operating system. However, it should be possible to execute the test cases designed in pixel-designer on a linux machine as well using pixel-runner as long as test cases use plugins compatible with linux.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Extract the files to any location after unblocking the zip files.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Launch pixel-design.exe and application will be started in offline mode.&lt;/p>
+&lt;blockquote>
+&lt;p>Admin rights are not required to execute the application.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="pixel-designer.PNG" alt="">&lt;/p>
+&lt;blockquote>
+&lt;p>pixel-designer can work in online or offline mode. Offline mode is a quick way to try out the software before going through all the required setup.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="settings">Settings&lt;/h2>
+&lt;p>Settings window can be opened by clicking the wheel icon on top right. There are three sections :&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>General&lt;/p>
+&lt;p>&lt;img src="settings-general.PNG" alt="">&lt;/p>
+&lt;ul>
+&lt;li>Persistence Service : Url of the persistence service if you want to run application in online mode.&lt;/li>
+&lt;li>Work Offline : Indicates if application should work in online or offline mode.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Fixture&lt;/p>
+&lt;p>&lt;img src="settings-fixture.PNG" alt="">&lt;/p>
+&lt;ul>
+&lt;li>Delay Before : Amount of delay in milli seconds before executing each step of the automation workflow.&lt;/li>
+&lt;li>Delay After : Amount of delay in milli seconds after executing each step of the automation workflow.&lt;/li>
+&lt;li>Delay Factor : Delay Before and Delay After are scaled using Delay Factor before using those values. Delay Factor can be overridden by individual fixture and test cases.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Theme&lt;/p>
+&lt;p>&lt;img src="settings-theme.PNG" alt="">&lt;/p>
+&lt;ul>
+&lt;li>Theme : Theme of the application. It can be light or dark.&lt;/li>
+&lt;li>Accent : Accent applied to the application. Multiple color options are available for accent.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: pixel-persistence</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-persistence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-persistence/</guid><description>
+&lt;p>pixel-persistence is an asp.net core based web service used by pixel-designer and pixel-runner to store and retrieve data. It also comes up with a blazor based UI for showing various reports for test execution results. pixel-persistence requires &lt;a href="https://www.mongodb.com/try/download/community">mongodb&lt;/a> to store automation process and test execution data.
+The release only provides a windows OS binary at the moment which can be executed as an standalone application on windows OS.&lt;/p>
+&lt;blockquote>
+&lt;p>see docker-compose-&lt;em>.&lt;/em> files in &lt;a href="https://github.com/Nfactor26/pixel-automation">project repository&lt;/a> if you are intrested in hosting on docker. Please let us know if you need an official docker image by raising an issue on project &lt;a href="https://github.com/Nfactor26/pixel-automation/issues">isssues&lt;/a> page.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Make sure that an instance of mongodb is up and running&lt;/li>
+&lt;li>Extract the files to any location after unblocking the zip file.&lt;/li>
+&lt;li>Ensure that DOTNET_ENVIRONMENT OR ASPNETCORE_ENVIRONMENT variable is set to production. See &lt;a href="https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#environments">ENVIRONMENTS&lt;/a> in asp.net&lt;/li>
+&lt;li>Edit the appsettings.json file to set the MongoDbSettings-&amp;gt;ConnectionString. Example connectionString &amp;ldquo;mongodb://localhost:27017&amp;rdquo;. This will vary based on your mongodb configuration.&lt;/li>
+&lt;li>Launch pixel-persistence.exe&lt;/li>
+&lt;li>Navigate to dashboard - https://localhost:5001/persistence and swagger ui - https://localhost:5001/swagger/index.html) to verify service is up and running. Base Url can be different depending on your setup.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>pixel-persistence doesn&amp;rsquo;t support authentication and authorization out of the box. You would ideally want to host it behind a reverse proxy like &lt;a href="https://microsoft.github.io/reverse-proxy/">yarp&lt;/a> and authenticate and authorize requests before they are proxied. Please see &lt;a href="https://microsoft.github.io/reverse-proxy/articles/authn-authz.html">Authentication and Authorization&lt;/a> with yarp. You can use any reverse proxy of your choice.&lt;/p>
+&lt;/blockquote></description></item><item><title>Docs: pixel-runner</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-runner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-runner/</guid><description>
+&lt;p>pixel-runner is a .net core cli based application that can be used to execute test cases designed in pixel-designer. It is suitable for use on your machines dedicated for execution of test cases.
+Although, pixel-runner can be used on both windows and linux machines, only windows binaries are available at the moment as part of releases.&lt;/p>
+&lt;ol>
+&lt;li>Extract the files to any location after unblocking the zip files.&lt;/li>
+&lt;li>Edit the appsettings.json and set &amp;ldquo;persistenceServiceUri&amp;rdquo; to the url of persistence-service.&lt;/li>
+&lt;li>Launch command prompt and change working directory to the folder contaning pixel-run.exe&lt;/li>
+&lt;li>Run pixel-run &amp;ndash;help from the command prompt to see help menu.&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>Admin rights are not required to execute the application&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="pixel-run.PNG" alt="">&lt;/p></description></item></channel></rss>

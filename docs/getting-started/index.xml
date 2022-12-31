@@ -1,267 +1,390 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pixel Automation – Getting Started</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/</link><description>Recent content in Getting Started on Pixel Automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Example Page</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/example-page/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
-&lt;/div>
-&lt;p>Text can be &lt;strong>bold&lt;/strong>, &lt;em>italic&lt;/em>, or &lt;del>strikethrough&lt;/del>. &lt;a href="https://gohugo.io">Links&lt;/a> should be blue with no underlines (unless hovered over).&lt;/p>
-&lt;p>There should be whitespace between paragraphs. Vape migas chillwave sriracha poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party heirloom letterpress air plant pop-up. Sustainable chia skateboard art party banjo cardigan normcore affogato vexillologist quinoa meggings man bun master cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel, actually keffiyeh thundercats photo booth pour-over twee fam food truck microdosing banh mi. Vice activated charcoal raclette unicorn live-edge post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo park humblebrag tilde.&lt;/p>
-&lt;p>90&amp;rsquo;s four loko seitan photo booth gochujang freegan tumeric listicle fam ugh humblebrag. Bespoke leggings gastropub, biodiesel brunch pug fashion axe meh swag art party neutra deep v chia. Enamel pin fanny pack knausgaard tofu, artisan cronut hammock meditation occupy master cleanse chartreuse lumbersexual. Kombucha kogi viral truffaut synth distillery single-origin coffee ugh slow-carb marfa selfies. Pitchfork schlitz semiotics fanny pack, ugh artisan vegan vaporware hexagon. Polaroid fixie post-ironic venmo wolf ramps &lt;strong>kale chips&lt;/strong>.&lt;/p>
-&lt;blockquote>
-&lt;p>There should be no margin above this first sentence.&lt;/p>
-&lt;p>Blockquotes should be a lighter gray with a border along the left side in the secondary color.&lt;/p>
-&lt;p>There should be no margin below this final sentence.&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="first-header-2">First Header 2&lt;/h2>
-&lt;p>This is a normal paragraph following a header. Knausgaard kale chips snackwave microdosing cronut copper mug swag synth bitters letterpress glossier &lt;strong>craft beer&lt;/strong>. Mumblecore bushwick authentic gochujang vegan chambray meditation jean shorts irony. Viral farm-to-table kale chips, pork belly palo santo distillery activated charcoal aesthetic jianbing air plant woke lomo VHS organic. Tattooed locavore succulents heirloom, small batch sriracha echo park DIY af. Shaman you probably haven&amp;rsquo;t heard of them copper mug, crucifix green juice vape &lt;em>single-origin coffee&lt;/em> brunch actually. Mustache etsy vexillologist raclette authentic fam. Tousled beard humblebrag asymmetrical. I love turkey, I love my job, I love my friends, I love Chardonnay!&lt;/p>
-&lt;p>Deae legum paulatimque terra, non vos mutata tacet: dic. Vocant docuique me plumas fila quin afuerunt copia haec o neque.&lt;/p>
-&lt;p>On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.&lt;/p>
-&lt;p>Scenester tumeric pickled, authentic crucifix post-ironic fam freegan VHS pork belly 8-bit yuccie PBR&amp;amp;B. &lt;strong>I love this life we live in&lt;/strong>.&lt;/p>
-&lt;h2 id="second-header-2">Second Header 2&lt;/h2>
-&lt;blockquote>
-&lt;p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="header-3">Header 3&lt;/h3>
-&lt;pre tabindex="0">&lt;code>This is a code block following a header.
-&lt;/code>&lt;/pre>&lt;p>Next level leggings before they sold out, PBR&amp;amp;B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan.&lt;/p>
-&lt;h4 id="header-4">Header 4&lt;/h4>
-&lt;ul>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;/ul>
-&lt;h5 id="header-5">Header 5&lt;/h5>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pixel Automation – Getting Started</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/</link><description>Recent content in Getting Started on Pixel Automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Add new application</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/add-new-application/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/add-new-application/</guid><description>
+&lt;p>In this tutorial, we will add and configure &amp;ldquo;calculator&amp;rdquo; application that come with the windows. Launch the pixel-designer and let&amp;rsquo;s get started.&lt;/p>
 &lt;ol>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;li>This is an ordered list following a header.&lt;/li>
+&lt;li>Click the Add (+) button in the &amp;ldquo;Applications Repository&amp;rdquo; pane at the bottom.&lt;/li>
+&lt;li>Click &amp;ldquo;Windows App&amp;rdquo; from the popup menu.&lt;/li>
+&lt;li>An application icon appears with name &amp;ldquo;1&amp;rdquo;.&lt;/li>
+&lt;li>Select this application icon, right click -&amp;gt; rename. Rename apaplication to &amp;ldquo;Calculator&amp;rdquo; and press enter. The new name should start showing up now as shown below.
+&lt;img src="application-explorer.PNG" alt="">&lt;/li>
+&lt;li>Select this application icon again, right click - &amp;gt; Edit.&lt;/li>
+&lt;li>Application details are in edit mode in property grid pane on right side.&lt;/li>
+&lt;li>Set the value of &amp;ldquo;ExecutablePath&amp;rdquo; to &amp;ldquo;calc&amp;rdquo; and click on save icon on top right of property grid pane.
+&lt;img src="calculator-edit.PNG" alt="">&lt;/li>
 &lt;/ol>
-&lt;h6 id="header-6">Header 6&lt;/h6>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>What&lt;/th>
-&lt;th>Follows&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>There&amp;rsquo;s a horizontal rule above and below this.&lt;/p>
-&lt;hr>
-&lt;p>Here is an unordered list:&lt;/p>
-&lt;ul>
-&lt;li>Liverpool F.C.&lt;/li>
-&lt;li>Chelsea F.C.&lt;/li>
-&lt;li>Manchester United F.C.&lt;/li>
-&lt;/ul>
-&lt;p>And an ordered list:&lt;/p>
+&lt;blockquote>
+&lt;p>Some tutorials toward the end require that pixel-persistence service is up and running and pixel-designer is running in online mode. You can continue in offline mode for the most part if you want to quickly get a feel of pixel-designer without investing time in all necessary setup.&lt;/p>
+&lt;/blockquote></description></item><item><title>Docs: Capture controls</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/capture-controls/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/capture-controls/</guid><description>
+&lt;p>In this tutorial, we will capture and configure the controls belonging to calculator application that need to be automated in pixel-designer&lt;/p>
 &lt;ol>
-&lt;li>Michael Brecker&lt;/li>
-&lt;li>Seamus Blake&lt;/li>
-&lt;li>Branford Marsalis&lt;/li>
+&lt;li>
+&lt;p>Double click the &amp;ldquo;Calculator&amp;rdquo; application icon to activate &amp;ldquo;Control Explorer&amp;rdquo; inside the Application repoitory.&lt;/p>
+&lt;p>&lt;img src="control-explorer-0.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Launch calculator application by hitting win+r and then type calc followed by enter.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In pixel-designer, click Screen Scrappers -&amp;gt; UIA Scrapper from top level menu. At this point, if you hover over any control on applications that support &lt;a href="https://learn.microsoft.com/en-us/dotnet/framework/ui-automation/">UIA&lt;/a>, they will get highlighted with an orange rectangle as shown below.&lt;/p>
+&lt;p>&lt;img src="control-highlight.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hold left ctrl and click any of the buttons on calculator to capture it. If successfully capture, highlight rectangle will turn green.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Let&amp;rsquo;s capture button 0, 1, 2, 3, add, subtract, multiply, divide, equals, clear and result.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Once all controls are captured, you can go back to Screen scrappers -&amp;gt; UIA Scrapper and click it again to exit capture mode.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>All the captured controls will appear in control explorer view now. You can now rename these controls by selecting them and right click -&amp;gt; rename or you can inspect and modify captured details by right click -&amp;gt; Configure.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Control explorer should look as shown below at this point assuming you have also renamed the controls.&lt;/p>
+&lt;p>&lt;img src="control-explorer-1.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Create new project</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/create-new-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/create-new-project/</guid><description>
+&lt;p>In this tutorial, we will create a new automation project. Automation project can contain test fixtures and test cases for our application.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Click on the Add (+) icon left of &amp;ldquo;Projects&amp;rdquo; on the Home tab.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>This will open the dialog to create new automation project.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Set the name as &amp;ldquo;Calculator Demo&amp;rdquo; and click &amp;ldquo;Create&amp;rdquo;.&lt;/p>
+&lt;p>&lt;img src="new-project.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The project will be created and opened now in designer in a new tab.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Setup and Teardown</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/setup-and-teardown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/setup-and-teardown/</guid><description>
+&lt;p>In this tutorial, we will configure the automation process so that we can launch Calculator application as part of environment setup and close Calculator application as part of environment teardown.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>At this point, &amp;ldquo;Calculator Demo&amp;rdquo; should be the active tab in pixel-designer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Double click on the &amp;ldquo;Automation Process&amp;rdquo; component to expand it. Your designer should look shown below :&lt;/p>
+&lt;p>&lt;img src="initial-content.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Navigate to application view by clicking the back button from control explorer view and drag drop the Calculator application on &amp;ldquo;Application Pool&amp;rdquo; component.
+This will add a &amp;ldquo;Calculator&amp;rdquo; application component and a &amp;ldquo;UIA Control Locator&amp;rdquo; child component of the &amp;ldquo;Calcultor&amp;rdquo; component. Select the &amp;ldquo;UIA Control Locator&amp;rdquo; component and change &amp;ldquo;MatchProcessId&amp;rdquo; property to false.&lt;/p>
+&lt;blockquote>
+&lt;p>There are two window associated with Calculator. The child window has a different process Id.Hence, we need to configure to not match ProcessId while looking for controls.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop the application on &amp;ldquo;Environment Setup&amp;rdquo; and &amp;ldquo;Environment Teardown&amp;rdquo; components. However, this time a &amp;ldquo;Sequence : Calculator&amp;rdquo; component is added.&lt;/p>
+&lt;blockquote>
+&lt;p>When you drag drop an application on any of the component except &amp;ldquo;Application Pool&amp;rdquo;, a new component with name &amp;ldquo;Sequence:ApplicationName&amp;rdquo; is created. Application sequence components create a scope for the application. All components inside an application scope act on the target application e.g. launch component will launch application identified by the current application scope.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Tip : If you are in control explorer view for a given application, you can also drag drop the empty rectangle icon from top left.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Open the script editor for project initialization script by clicking Project -&amp;gt; Edit Script from top level menu. Declare a variable calculatorWindow of type ApplicationWindow as shown and save the script. Also, add required namespace for type ApplicationWindow.&lt;/p>
+&lt;p>&lt;img src="initialization-script.PNG" alt="">&lt;/p>
+&lt;blockquote>
+&lt;p>pixel-designer comes integrated with a C# code editor with rich features like intellisense and code highlighting e.g. if you hover over ApplicationWindow , you will see a yellow light bulb. You can click it and see available options that can help you to automatically add missing namespace without typing it manually.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Add below four components to &amp;ldquo;Environemtn Setup -&amp;gt; Sequence : Calculator&amp;rdquo; component from the Components pane on left. You can search for component name to filter.&lt;/p>
+&lt;ul>
+&lt;li>Launch : This is required to launch the application. No configuration required.&lt;/li>
+&lt;li>Delay : This is required to add a delay between execution of next step. Select this component and set the value of &amp;ldquo;Delay Amount&amp;rdquo; to 3 in property grid.&lt;/li>
+&lt;li>Find Desktop Window : This is used to find an ApplicationWindow using different criteria e.g. title of window to find. Select this component after adding and set &amp;ldquo;Match Criteria&amp;rdquo; to &amp;ldquo;Equals&amp;rdquo;, &amp;ldquo;Window Title&amp;rdquo; to &amp;ldquo;Calculator&amp;rdquo; and &amp;ldquo;TargetWindow&amp;rdquo; to &amp;ldquo;calculatorWindow&amp;rdquo; variable from dropdown that we declared earlier in property grid.&lt;/li>
+&lt;li>Attach : This is required to attach to an existing application. Select this component and set the value of &amp;ldquo;Attach mode&amp;rdquo; to &amp;ldquo;Attach to Window&amp;rdquo; and value of &amp;ldquo;Attach To&amp;rdquo; to &amp;ldquo;calculatorWindow&amp;rdquo; variable from dropdown&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Normally Launch will be the only component required in case of other applications like notepad. However, calc.exe spawns few other processes. Hence, we need to find the Calculator window and attach to it manually. Although, this makes tutorial a bit complicated, it also gives an idea on the flexibility offered by pixel-deigner to handle custom scenarios and a glimpse of scripting capabilities it has to offer.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Add Close component to &amp;ldquo;Environemtn Teardown -&amp;gt; Sequence : Calculator&amp;rdquo;. Close component will exit the Calculator application that we attached to earlier during environment setup.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Your screen should look as shown below at this step.&lt;/p>
+&lt;p>&lt;img src="complete-content.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Save the process from File -&amp;gt; Save.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ensure that Calculator application is not already running.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Activate the &amp;ldquo;Test Explorer&amp;rdquo; pane on left and click on the Setup icon button.&lt;/p>
+&lt;p>&lt;img src="test-explorer-toolbar.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Calculator application should be launched now.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Teardown icon button on &amp;ldquo;Test Explorer&amp;rdquo; toolbar should be enabled now. Click on it to close the application.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Add fixtures</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/add-fixtures/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/add-fixtures/</guid><description>
+&lt;p>In this tutorial, we will add few fixtures to the automation process.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Activate the &amp;ldquo;Test Explorer&amp;rdquo; pane.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click on &amp;ldquo;Add new fixture&amp;rdquo; icon button on the toolbar&lt;/p>
+&lt;p>&lt;img src="test-explorer-toolbar.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>This will open the new popup dialog to add new test fixture.&lt;/p>
+&lt;p>&lt;img src="new-fixture.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Leave the default values and click on save button to create fixture.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Repeat the process twice to create two more fixture with default value.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>At this step, you should have three fixtures and your screen should look as shown below.&lt;/p>
+&lt;p>&lt;img src="3-fixtures.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Add test cases</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/add-test-cases/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/add-test-cases/</guid><description>
+&lt;p>In this tutorial, we will add a test case to each fixture we created earlier.&lt;/p>
+&lt;h2 id="creating-new-test-cases">Creating new test cases&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Activate the &amp;ldquo;Test Explorer&amp;rdquo; pane.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Right click &amp;ldquo;Fixture#1&amp;rdquo; and select &amp;ldquo;Add Test&amp;rdquo;.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>This will open popup window to add a new test case.&lt;/p>
+&lt;p>&lt;img src="new-test-case.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Change the name to &amp;ldquo;Add Numbers&amp;rdquo; and click save.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Similarly, add a new test case named &amp;ldquo;Multiply Numbers&amp;rdquo; to Fixture#2 and &amp;ldquo;Simulate Error&amp;rdquo; to Fixture#3.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Activate the &amp;ldquo;Test Data Repository&amp;rdquo; pane at the bottom and drag drop &amp;ldquo;EmptyDataSource&amp;rdquo; on each test case.&lt;/p>
+&lt;blockquote>
+&lt;p>Test cases require that a data source should be assigned to them before they become active and can be worked with. Your test case will execute once for each data record returned by the data source. Test data source can be coded or mapped to csv files. EmptyDataSource returns only one data record and can be used with any test case that doesn&amp;rsquo;t depend on any data. It is created by default for each new automation project. It is also posssible to override the data source at runtime using prefixes to run your test cases with different sets of data dynamically.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>After above steps, your screen should look as shown below.&lt;/p>
+&lt;p>&lt;img src="test-cases-created.PNG" alt="">&lt;/p>
+&lt;/li>
 &lt;/ol>
-&lt;p>And an unordered task list:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Create a Hugo theme&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Add task lists to it&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Take a vacation&lt;/li>
-&lt;/ul>
-&lt;p>And a &amp;ldquo;mixed&amp;rdquo; task list:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox"> Pack bags&lt;/li>
-&lt;li>?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Travel!&lt;/li>
-&lt;/ul>
-&lt;p>And a nested list:&lt;/p>
-&lt;ul>
-&lt;li>Jackson 5
-&lt;ul>
-&lt;li>Michael&lt;/li>
-&lt;li>Tito&lt;/li>
-&lt;li>Jackie&lt;/li>
-&lt;li>Marlon&lt;/li>
-&lt;li>Jermaine&lt;/li>
-&lt;/ul>
+&lt;h2 id="configure-steps-for-test-case-fixture1---add-numbers">Configure steps for test case &amp;ldquo;Fixture#1 -&amp;gt; Add Numbers&amp;rdquo;&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Right click test case &amp;ldquo;Add Numbers&amp;rdquo; and click open.&lt;/p>
 &lt;/li>
-&lt;li>TMNT
-&lt;ul>
-&lt;li>Leonardo&lt;/li>
-&lt;li>Michelangelo&lt;/li>
-&lt;li>Donatello&lt;/li>
-&lt;li>Raphael&lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>Test case &amp;ldquo;Add Numbers&amp;rdquo; should be open on designer canvas now.&lt;/p>
+&lt;p>&lt;img src="add-numbers-on-open.PNG" alt="">&lt;/p>
 &lt;/li>
-&lt;/ul>
-&lt;p>Definition lists can be used with Markdown syntax. Definition headers are bold.&lt;/p>
-&lt;dl>
-&lt;dt>Name&lt;/dt>
-&lt;dd>Godzilla&lt;/dd>
-&lt;dt>Born&lt;/dt>
-&lt;dd>1952&lt;/dd>
-&lt;dt>Birthplace&lt;/dt>
-&lt;dd>Japan&lt;/dd>
-&lt;dt>Color&lt;/dt>
-&lt;dd>Green&lt;/dd>
-&lt;/dl>
-&lt;hr>
-&lt;p>Tables should have bold headings and alternating shaded rows.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Artist&lt;/th>
-&lt;th>Album&lt;/th>
-&lt;th>Year&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Michael Jackson&lt;/td>
-&lt;td>Thriller&lt;/td>
-&lt;td>1982&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Prince&lt;/td>
-&lt;td>Purple Rain&lt;/td>
-&lt;td>1984&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Beastie Boys&lt;/td>
-&lt;td>License to Ill&lt;/td>
-&lt;td>1986&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>If a table is too wide, it should scroll horizontally.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Artist&lt;/th>
-&lt;th>Album&lt;/th>
-&lt;th>Year&lt;/th>
-&lt;th>Label&lt;/th>
-&lt;th>Awards&lt;/th>
-&lt;th>Songs&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Michael Jackson&lt;/td>
-&lt;td>Thriller&lt;/td>
-&lt;td>1982&lt;/td>
-&lt;td>Epic Records&lt;/td>
-&lt;td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical&lt;/td>
-&lt;td>Wanna Be Startin&amp;rsquo; Somethin&amp;rsquo;, Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Prince&lt;/td>
-&lt;td>Purple Rain&lt;/td>
-&lt;td>1984&lt;/td>
-&lt;td>Warner Brothers Records&lt;/td>
-&lt;td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&amp;amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal&lt;/td>
-&lt;td>Let&amp;rsquo;s Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I&amp;rsquo;m a Star, Purple Rain&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Beastie Boys&lt;/td>
-&lt;td>License to Ill&lt;/td>
-&lt;td>1986&lt;/td>
-&lt;td>Mercury Records&lt;/td>
-&lt;td>noawardsbutthistablecelliswide&lt;/td>
-&lt;td>Rhymin &amp;amp; Stealin, The New Style, She&amp;rsquo;s Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>Code snippets like &lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code> can be shown inline.&lt;/p>
-&lt;p>Also, &lt;code>this should vertically align&lt;/code> &lt;del>&lt;code>with this&lt;/code>&lt;/del> &lt;del>and this&lt;/del>.&lt;/p>
-&lt;p>Code can also be shown in a block element.&lt;/p>
-&lt;pre tabindex="0">&lt;code>foo := &amp;#34;bar&amp;#34;;
-bar := &amp;#34;foo&amp;#34;;
-&lt;/code>&lt;/pre>&lt;p>Code can also use syntax highlighting.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">func&lt;/span> &lt;span style="color:#000">main&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">input&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#4e9a06">`var foo = &amp;#34;bar&amp;#34;;`&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">lexer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexers&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;javascript&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">_&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">lexer&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Tokenise&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">nil&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">input&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">style&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">styles&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Get&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;github&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">formatter&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:=&lt;/span> &lt;span style="color:#000">html&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">New&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">html&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">WithLineNumbers&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">var&lt;/span> &lt;span style="color:#000">buff&lt;/span> &lt;span style="color:#000">bytes&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Buffer&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">formatter&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Format&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">style&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">iterator&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">fmt&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">Println&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">buff&lt;/span>&lt;span style="color:#000;font-weight:bold">.&lt;/span>&lt;span style="color:#000">String&lt;/span>&lt;span style="color:#000;font-weight:bold">())&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre tabindex="0">&lt;code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-&lt;/code>&lt;/pre>&lt;p>Inline code inside table cells should still be distinguishable.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Language&lt;/th>
-&lt;th>Code&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Javascript&lt;/td>
-&lt;td>&lt;code>var foo = &amp;quot;bar&amp;quot;;&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Ruby&lt;/td>
-&lt;td>&lt;code>foo = &amp;quot;bar&amp;quot;{&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>Small images should be shown at their actual size.&lt;/p>
-&lt;p>&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/240px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg" alt="">&lt;/p>
-&lt;p>Large images should always scale down and fit in the content container.&lt;/p>
-&lt;p>&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg/1024px-Picea_abies_shoot_with_buds%2C_Sogndal%2C_Norway.jpg" alt="">&lt;/p>
-&lt;p>&lt;em>The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em>&lt;/p>
-&lt;h2 id="components">Components&lt;/h2>
-&lt;h3 id="alerts">Alerts&lt;/h3>
-&lt;p>
-&lt;div class="alert alert-primary" role="alert">
-This is an alert.
-&lt;/div>
-&lt;div class="alert alert-primary" role="alert">
-&lt;h4 class="alert-heading">Note&lt;/h4>
-This is an alert with a title.
-&lt;/div>
-&lt;div class="alert alert-primary" role="alert">
-&lt;h4 class="alert-heading">Note&lt;/h4>
-This is an alert with a title and &lt;strong>Markdown&lt;/strong>.
-&lt;/div>
-&lt;div class="alert alert-success" role="alert">
-This is a successful alert.
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-This is a warning.
-&lt;/div>
-&lt;div class="alert alert-warning" role="alert">
-&lt;h4 class="alert-heading">Warning&lt;/h4>
-This is a warning with a title.
-&lt;/div>
-&lt;/p>
-&lt;h2 id="another-heading">Another Heading&lt;/h2>
-&lt;p>Add some sections here to see how the ToC looks like. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.&lt;/p>
-&lt;h3 id="this-document">This Document&lt;/h3>
-&lt;p>Inguina genus: Anaphen post: lingua violente voce suae meus aetate diversi. Orbis unam nec flammaeque status deam Silenum erat et a ferrea. Excitus rigidum ait: vestro et Herculis convicia: nitidae deseruit coniuge Proteaque adiciam &lt;em>eripitur&lt;/em>? Sitim noceat signa &lt;em>probat quidem&lt;/em>. Sua longis &lt;em>fugatis&lt;/em> quidem genae.&lt;/p>
-&lt;h3 id="pixel-count">Pixel Count&lt;/h3>
-&lt;p>Tilde photo booth wayfarers cliche lomo intelligentsia man braid kombucha vaporware farm-to-table mixtape portland. PBR&amp;amp;B pickled cornhole ugh try-hard ethical subway tile. Fixie paleo intelligentsia pabst. Ennui waistcoat vinyl gochujang. Poutine salvia authentic affogato, chambray lumbersexual shabby chic.&lt;/p>
-&lt;h3 id="contact-info">Contact Info&lt;/h3>
-&lt;p>Plaid hell of cred microdosing, succulents tilde pour-over. Offal shabby chic 3 wolf moon blue bottle raw denim normcore poutine pork belly.&lt;/p>
-&lt;h3 id="external-links">External Links&lt;/h3>
-&lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
-&lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;li>
+&lt;p>Drag drop the calculator application from application explorer on to &amp;ldquo;Add Numbers&amp;rdquo; component.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop controls 1, add, 2 and equals from Control explorer to the &amp;ldquo;Sequence : Calculator&amp;rdquo; component added in previous step.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After above steps, your screen should look as shown below.&lt;/p>
+&lt;p>&lt;img src="add-numbers-on-controls-added.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop component &amp;ldquo;UIA -&amp;gt; Invoke&amp;rdquo; from component pane to controls 1, 2, add and equals.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Right click &amp;ldquo;Add Numbers&amp;rdquo; test case in test explorer and click &amp;ldquo;Save&amp;rdquo; or click save all icon on test explorer toolbar.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ensure Calculator application is not alredy running.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Setup environment from the test explorer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the test case &amp;ldquo;Add Numbers&amp;rdquo; and then click &amp;ldquo;Run Selected&amp;rdquo; button from the test explorer toolbar to execute the test case.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Tear down environment to close the calculator application.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="configure-steps-for-test-case-fixture2---multiply-numbers">Configure steps for test case &amp;ldquo;Fixture#2 -&amp;gt; Multiply Numbers&amp;rdquo;&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Right click test case &amp;ldquo;Multiply Numbers&amp;rdquo; and click open.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Test case &amp;ldquo;Multiply Numbers&amp;rdquo; should be open on designer canvas now.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop the calculator application from application explorer on to &amp;ldquo;Setup&amp;rdquo; component&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop control clear from control explorer to the to the &amp;ldquo;Sequence : Calculator&amp;rdquo; component added in previous step and add &amp;ldquo;UIA -&amp;gt; Invoke&amp;rdquo; component to clear control component. This is required to clear the results from previous test case before executing the test case.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop the calculator application from application explorer on to &amp;ldquo;Multiply Numbers&amp;rdquo; component&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop controls 1, multiply, 2 and equals from Control explorer to the &amp;ldquo;Sequence : Calculator&amp;rdquo; component added in previous step .&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Instead of &amp;ldquo;UIA -&amp;gt; Invoke&amp;rdquo; component which automates the control using API, we will simulate mouse click using &amp;ldquo;Input Device -&amp;gt; Mouse -&amp;gt; Click&amp;rdquo; component.
+Add &amp;ldquo;Input Device -&amp;gt; Mouse -&amp;gt; Click&amp;rdquo; component to all the controls.&lt;/p>
+&lt;blockquote>
+&lt;p>Simulation using mouse and keyboard requiress application to have focus. We can ensure that by setting &amp;ldquo;Requires Focus&amp;rdquo; property to true on the application sequence component added to test case.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Right click &amp;ldquo;Multiply Numbers&amp;rdquo; test case in test explorer and click &amp;ldquo;Save&amp;rdquo; or click save all icon on test explorer toolbar.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After above steps, your screen should look as shown below.&lt;/p>
+&lt;p>&lt;img src="multiply-numbers.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ensure Calculator application is not alredy running.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Setup environment from the test explorer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the test case &amp;ldquo;Multiply Numbers&amp;rdquo; and then click &amp;ldquo;Run Selected&amp;rdquo; button from the test explorer toolbar to execute the test case.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Tear down environment to close the calculator application.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="configure-steps-for-test-case-fixture3---simulate-error">Configure steps for test case &amp;ldquo;Fixture#3 -&amp;gt; Simulate error&amp;rdquo;&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Right click test case &amp;ldquo;Simulate error&amp;rdquo; and click open.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Drag drop the calculator application from application explorer on to &amp;ldquo;Simulate Error&amp;rdquo; component.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add &amp;ldquo;Scripting -&amp;gt; Script [Inline]&amp;rdquo; component to the application sequence.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Set the content as shown below&lt;/p>
+&lt;p>&lt;img src="simulate-error.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Right click &amp;ldquo;Simulate error&amp;rdquo; test case in test explorer and click &amp;ldquo;Save&amp;rdquo; or click save all icon on test explorer toolbar.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Ensure Calculator application is not alredy running.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Setup environment from the test explorer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the test case &amp;ldquo;Simulate error&amp;rdquo; and then click &amp;ldquo;Run Selected&amp;rdquo; button from the test explorer toolbar to execute the test case.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Execution of test case will fail.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Tear down environment to close the calculator application.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="run-all-the-test-cases-simultaneously">Run all the test cases simultaneously&lt;/h2>
+&lt;ol>
+&lt;li>Ensure Calculator application is not alredy running.&lt;/li>
+&lt;li>Setup environment from the test explorer.&lt;/li>
+&lt;li>Click &amp;ldquo;Run All&amp;rdquo; from the test explorer.&lt;/li>
+&lt;li>Tear down environment once all test cases are executed.&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Publish project</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/publish-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/publish-project/</guid><description>
+&lt;p>In this tutorial, we will look at how can we publish a specific version of project.&lt;/p>
+&lt;p>Let&amp;rsquo;s assume you have a software with current version 8.x in production and next upcoming version is 9.x. As the development team is working on 9.x feature, QA team will be adding automation test cases simultaneously. Eventually, 9.x version will be frozen and work will start on next version 10.x.
+The QA team maintaining the automation project in pixel-designer has active version 1.x ( for 9.x of software under test). The QA team can now publish version 1.x when they think they are done with all the automation test cases for version 9.x of software. Publishing 1.x will create a cloned version 2.x. 1.x can&amp;rsquo;t be opened anymore in pixel-designer. The QA team now starts working with version 2.x of automation project to add new automation test cases for changes coming in version 10.0 of software.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Close the automation project by clicking x on the &amp;ldquo;Calculator Demo&amp;rdquo; tab.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Home tab should be active now.&lt;/p>
+&lt;p>&lt;img src="project-home.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hover over the project name to show hidden icons and click on the settings button next to the project name to open the version manager screen.&lt;/p>
+&lt;p>&lt;img src="before-publish.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click publish next to version 1.0.0.0 to publish this version and create a new incremented version 2.0.0.0. Version 2.0.0.0 will start as an exact clone of 1.0.0.0.&lt;/p>
+&lt;p>&lt;img src="after-publish.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can close the version manager screen now and can open the new version 2.0.0.0 to edit.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Execute test cases</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/execute-test-cases/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/execute-test-cases/</guid><description>
+&lt;blockquote>
+&lt;p>This tutorial requires that all the previous steps in pixel-designer were done in online mode.&lt;/p>
+&lt;/blockquote>
+&lt;p>In this tutorial, we will create templates in pixel-runner and use these templates to execute test cases in pixel-runner.
+Templates capture the details of which test cases should be executed for a given version of automation project.&lt;/p>
+&lt;h2 id="creating-templates-in-pixel-runner">Creating templates in pixel-runner&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Launch command prompt and change directory to where pixel-run.exe is located. See setup guide for pixel-runner if required.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Run &lt;code>pixel-run template --help&lt;/code> to see help for templates&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Run &lt;code>pixel-run template new&lt;/code> to create a new template and follow instructions to provide required value. This template will execute all test cases&lt;/p>
+&lt;p>&lt;img src="calculator-all.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Repeat step 3 to create another template as shown below. This template will execute only test cases belonging to Fixture#1 for project &amp;ldquo;Calculator Demo&amp;rdquo;&lt;/p>
+&lt;p>&lt;img src="calculator-f1.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;blockquote>
+&lt;p>Test selectors are C# scripts which can be used to filter if a test case belonging to a given fixture can be executed.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="executing-test-cases-in-pixel-runner-using-templates">Executing test cases in pixel-runner using templates&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Run &lt;code>pixel-run run template calculator-all 1.0.0.0&lt;/code> to run template calculator-all for version 1.0.0.0 of automation project.&lt;/p>
+&lt;p>&lt;img src="calculator-all-executed.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Run &lt;code>pixel-run run template calculator-f1 2.0.0.0&lt;/code> to run template calculator-f1 for version 2.0.0.0 of automation project.&lt;/p>
+&lt;p>&lt;img src="calculator-f1-executed.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: View Test Results</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/view-test-results/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/getting-started/view-test-results/</guid><description>
+&lt;p>In this tutorial, we will see how to view the reports for test case execution on the web dashboard.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Navigate to (https://localhost:5001/persistence)[https://localhost:5001/persistence] on your browser of choice.&lt;/p>
+&lt;blockquote>
+&lt;p>Depending on your deployment of pixel-persistence service, base url can be different.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>Click on sessions tab to see all the sessions you have executed from pixel-runner&lt;/p>
+&lt;p>&lt;img src="test-sessions.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &amp;ldquo;Show Details&amp;rdquo; on any session to see the details for that session.&lt;/p>
+&lt;p>&lt;img src="session-details.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &amp;ldquo;View Stats&amp;rdquo; for any of the test case to see details for that test case.&lt;/p>
+&lt;p>&lt;img src="test-case-details.PNG" alt="">&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
