@@ -1,33 +1,28 @@
----
-categories: ["Examples", "Placeholders"]
-tags: ["test","docs"] 
+--- 
 title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
 description: >
-  What does your user need to know to try your project?
+  Step by step tutorial to create your first test automtion.
 ---
 
-Information in this section helps your user try your project themselves.
+## What will be covered ?
 
-* What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
+  - Add a new application and configure it in pixel-designer
+  - Capture the controls for application that needs to be automated in pixel-designer
+  - Create a new automation project in pixel-designer
+  - Configure how application will be launched and closed as part of environment setup and tear down in pixel-designer
+  - Add new test fixtures and test cases in pixel-designer
+  - Execute test cases in pixel-designer
+  - Publish the project version from pixel-designer
+  - *Create a template in pixel-runner
+  - *Execute test case in pixel-runner using template
+  - *See details of test case execution on web portal
 
-* Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.
-
-Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.
+      > To follow along with steps marked with *, pixel-designer should be running in online mode
 
 ## Prerequisites
 
-Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?
+You should have a working setup as described in [Installation](Installation) section.
+If you want to quickly try out pixel-designer only, you don't need to setup pixel-persistence service and can use pixel-designer in offline mode.
 
-## Installation
-
-Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?
-
-## Setup
-
-Is there any initial setup users need to do after installation to try your project?
-
-## Try it out!
-
-Can your users test their installation, for example by running a command or deploying a Hello World example?
