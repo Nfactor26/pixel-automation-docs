@@ -7,7 +7,7 @@ description: >
 ---
 
 pixel-designer is a wpf based application built on top of .net core framework. It provides the design environment for creating automation test cases.
-It can be executed only on windows operating system. However, it should be possible to execute the test cases designed in pixel-designer on a linux machine as well using pixel-runner as long as test cases use plugins compatible with linux.
+It is intended to be used on windows OS. However, it should be possible to execute the test cases designed in pixel-designer on a linux machine as well given pixel-runner can execute on both windows and linux OS. If you plan to run your test cases on linux using pixel-runner, the plugins used in a test case must be supported on linux OS.
 
 1. Extract the files to any location after unblocking the zip files.
 2. Launch pixel-design.exe and application will be started in offline mode. 
