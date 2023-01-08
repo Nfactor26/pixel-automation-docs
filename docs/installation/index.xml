@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pixel Automation – Installation</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/</link><description>Recent content in Installation on Pixel Automation</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://nfactor26.github.io/pixel-automation-docs/docs/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: pixel-deigner</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-designer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-designer/</guid><description>
 &lt;p>pixel-designer is a wpf based application built on top of .net core framework. It provides the design environment for creating automation test cases.
-It can be executed only on windows operating system. However, it should be possible to execute the test cases designed in pixel-designer on a linux machine as well using pixel-runner as long as test cases use plugins compatible with linux.&lt;/p>
+It is intended to be used on windows OS. However, it should be possible to execute the test cases designed in pixel-designer on a linux machine as well given pixel-runner can execute on both windows and linux OS. If you plan to run your test cases on linux using pixel-runner, the plugins used in a test case must be supported on linux OS.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>Extract the files to any location after unblocking the zip files.&lt;/p>
@@ -45,10 +45,9 @@ It can be executed only on windows operating system. However, it should be possi
 &lt;/ul>
 &lt;/li>
 &lt;/ol></description></item><item><title>Docs: pixel-persistence</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-persistence/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-persistence/</guid><description>
-&lt;p>pixel-persistence is an asp.net core based web service used by pixel-designer and pixel-runner to store and retrieve data. It also comes up with a blazor based UI for showing various reports for test execution results. pixel-persistence requires &lt;a href="https://www.mongodb.com/try/download/community">mongodb&lt;/a> to store automation process and test execution data.
-The release only provides a windows OS binary at the moment which can be executed as an standalone application on windows OS.&lt;/p>
+&lt;p>pixel-persistence is an asp.net core based web service used by pixel-designer and pixel-runner to store and retrieve data. It also comes up with a blazor based UI for showing various reports for test execution results. pixel-persistence requires &lt;a href="https://www.mongodb.com/try/download/community">mongodb&lt;/a> to store automation process and test execution data.&lt;/p>
 &lt;blockquote>
-&lt;p>see docker-compose-&lt;em>.&lt;/em> files in &lt;a href="https://github.com/Nfactor26/pixel-automation">project repository&lt;/a> if you are intrested in hosting on docker. Please let us know if you need an official docker image by raising an issue on project &lt;a href="https://github.com/Nfactor26/pixel-automation/issues">isssues&lt;/a> page.&lt;/p>
+&lt;p>see docker-compose-&lt;em>.&lt;/em> files in &lt;a href="https://github.com/Nfactor26/pixel-automation">project repository&lt;/a> if you are intrested in hosting on docker. An official docker image is planned for upcoming release.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
 &lt;li>Make sure that an instance of mongodb is up and running&lt;/li>
@@ -59,10 +58,13 @@ The release only provides a windows OS binary at the moment which can be execute
 &lt;li>Navigate to dashboard - https://localhost:5001/persistence and swagger ui - https://localhost:5001/swagger/index.html) to verify service is up and running. Base Url can be different depending on your setup.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
+&lt;p>While the pixel-persistence service can be exposed directly (with Kestrel), it is recommended to use it behind a reverse proxy with SSL termination. See guidance on when to use Kestrel with a reverse proxy. &lt;strong>You will need to provide HTTPS certificate in either case&lt;/strong>. Checkout &lt;a href="https://github.com/FiloSottile/mkcert">mkcert&lt;/a> if you are working locally to generate self-signed certificates.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
 &lt;p>pixel-persistence doesn&amp;rsquo;t support authentication and authorization out of the box. You would ideally want to host it behind a reverse proxy like &lt;a href="https://microsoft.github.io/reverse-proxy/">yarp&lt;/a> and authenticate and authorize requests before they are proxied. Please see &lt;a href="https://microsoft.github.io/reverse-proxy/articles/authn-authz.html">Authentication and Authorization&lt;/a> with yarp. You can use any reverse proxy of your choice.&lt;/p>
 &lt;/blockquote></description></item><item><title>Docs: pixel-runner</title><link>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-runner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nfactor26.github.io/pixel-automation-docs/docs/installation/pixel-runner/</guid><description>
 &lt;p>pixel-runner is a .net core cli based application that can be used to execute test cases designed in pixel-designer. It is suitable for use on your machines dedicated for execution of test cases.
-Although, pixel-runner can be used on both windows and linux machines, only windows binaries are available at the moment as part of releases.&lt;/p>
+while pixel-runner can run both on windows and linux OS, you need to ensure plugin compatibility with OS while designing your test cases using pixel-designer on windows.&lt;/p>
 &lt;ol>
 &lt;li>Extract the files to any location after unblocking the zip files.&lt;/li>
 &lt;li>Edit the appsettings.json and set &amp;ldquo;persistenceServiceUri&amp;rdquo; to the url of persistence-service.&lt;/li>
